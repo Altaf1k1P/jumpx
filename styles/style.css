@@ -4839,17 +4839,17 @@ Service Details Area Style
 
 /* Popup Container */
 .popup-container {
-  background: #fff;
+  background: transparent;
+  margin-top: 35px;
   padding: 40px;
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   position: relative;
   animation: slideIn 0.5s ease-in-out;
 }
 
-/* Close Button */
+/* Close Button
 .close-btn {
   position: absolute;
   top: 10px;
@@ -4863,7 +4863,7 @@ Service Details Area Style
 
 .close-btn:hover {
   color: red;
-}
+} */
 
 /* Popup Animations */
 @keyframes fadeIn {

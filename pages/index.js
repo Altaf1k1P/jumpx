@@ -86,7 +86,7 @@ export default function Index3Page() {
       <Footer />
 
          {/* Popup */}
-         {showPopup && (
+      {showPopup && (
         <div
           className="popup-overlay"
           onClick={() => setShowPopup(false)}
@@ -95,12 +95,6 @@ export default function Index3Page() {
             className="popup-container"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the form
           >
-            <button
-              className="close-btn"
-              onClick={() => setShowPopup(false)}
-            >
-              &times;
-            </button>
             <PopupForm />
           </div>
         </div>
