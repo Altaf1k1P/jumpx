@@ -1,5 +1,5 @@
 import React from "react";
-import PageBanner from "../components/Common/PageBanner";
+import PageBannerNew from "../components/Common/PageBannerNew";
 import FaqContent from "../components/Faq/FaqContent";
 import AskQuestionForm from "../components/Faq/AskQuestionForm";
 

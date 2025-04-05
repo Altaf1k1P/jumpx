@@ -200,7 +200,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="copy-right">
-                <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                <p>Copyright &copy; {currentYear} VMC Technologies Pvt Ltd</p>
               </div>
             </div>
 
@@ -214,17 +214,6 @@ const Footer = () => {
                     <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                 </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-3">
-              <div className="designed">
-                <p>
-                  Designed By <i className="bx bx-heart"></i>{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
-                  </a>
-                </p>
               </div>
             </div>
           </div>
