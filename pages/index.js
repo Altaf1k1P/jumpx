@@ -46,7 +46,7 @@ import Services from "../components/HomeThree/Services";
 // import MakeYourBusiness from "../components/Common/MakeYourBusiness";
 import WhatWeOffer from "../components/HomeThree/WhatWeOffer";
 // import CaseStudies from "../components/HomeThree/CaseStudies";
-import Testimonials from "../components/Common/Testimonials";
+// import Testimonials from "../components/Common/Testimonials";
 import Faq from "../components/HomeThree/Faq";
 import News from "../components/Common/News";
 
@@ -75,7 +75,7 @@ export default function Index3Page() {
 
       {/* <CaseStudies /> */}
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <Faq />
 
