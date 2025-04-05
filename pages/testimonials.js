@@ -1,13 +1,10 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import TestimonialsContent from "../components/Testimonials/TestimonialsContent";
-import Footer from "../components/Layouts/Footer";
 
 export default function TestimonialsPage() {
   return (
     <>
-      <Navbar />
 
       <PageBanner
         pageTitle="Testimonials"
@@ -18,7 +15,6 @@ export default function TestimonialsPage() {
 
       <TestimonialsContent />
 
-      <Footer />
     </>
   );
 }

@@ -13,7 +13,7 @@ import animateShape1 from "../../public/images/home-one/shape/animate1.png";
 import animateShape2 from "../../public/images/home-one/shape/animate2.png";
 import animateShape3 from "../../public/images/home-one/shape/animate3.png";
 
-import bottomShape from "../../public/images/home-three/bottom-shape.png";
+// import bottomShape from "../../public/images/home-three/bottom-shape.png";
 
 const MainBanner = () => {
   // if toggler is updated when lightbox is closed it will open it
@@ -110,9 +110,9 @@ const MainBanner = () => {
           <Image src={animateShape3} alt="Image" width={150} height={119} />
         </div>
 
-        <div className="white-shape">
+        {/* <div className="white-shape">
           <Image src={bottomShape} alt="Image" width={1920} height={300} />
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -38,7 +38,6 @@
 //   );
 // }
 import React, {useState} from "react";
-import Navbar from "../components/Layouts/Navbar";
 import MainBanner from "../components/HomeThree/MainBanner";
 // import PartnerSlider from "../components/Common/PartnerSlider";
 import About from "../components/HomeThree/About";
@@ -50,14 +49,13 @@ import WhatWeOffer from "../components/HomeThree/WhatWeOffer";
 import Testimonials from "../components/Common/Testimonials";
 import Faq from "../components/HomeThree/Faq";
 import News from "../components/Common/News";
-import Footer from "../components/Layouts/Footer";
-import PopupForm from "../components/Popup/PopupForm";
+
 
 export default function Index3Page() {
-  const [showPopup, setShowPopup] = useState(false);
+ 
   return (
     <>
-      <Navbar onEnquireClick={() => setShowPopup(true)} />
+      
 
       <MainBanner />
 
@@ -83,22 +81,8 @@ export default function Index3Page() {
 
       <News />
 
-      <Footer />
 
-         {/* Popup */}
-      {showPopup && (
-        <div
-          className="popup-overlay"
-          onClick={() => setShowPopup(false)}
-        >
-          <div
-            className="popup-container"
-            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the form
-          >
-            <PopupForm />
-          </div>
-        </div>
-      )}
+     
       
     </>
   );
