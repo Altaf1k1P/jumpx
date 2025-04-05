@@ -1,10 +1,8 @@
 import React from "react";
 import PageBannerNew from "../components/Common/PageBannerNew";
 import About from "../components/AboutTwo/About";
-import WhyChooseUs from "../components/AboutTwo/WhyChooseUs";
-import MakeYourBusiness from "../components/Common/MakeYourBusiness";
-import Testimonials from "../components/Common/Testimonials";
-import PartnerSlider from "../components/Common/PartnerSlider";
+import TeamCard from "../components/Team/TeamCard";
+import WhatWeOffer from "../components/HomeThree/WhatWeOffer";
 
 
 export default function About2Page() {
@@ -18,14 +16,9 @@ export default function About2Page() {
 
       <About />
 
-      <WhyChooseUs />
+      <WhatWeOffer />
 
-      <MakeYourBusiness />
-
-      <Testimonials />
-
-      <PartnerSlider />
-
+      <TeamCard />
     </>
   );
 }
