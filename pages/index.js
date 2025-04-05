@@ -80,9 +80,6 @@ export default function Index3Page() {
       <Faq />
 
       <News />
-
-
-     
       
     </>
   );

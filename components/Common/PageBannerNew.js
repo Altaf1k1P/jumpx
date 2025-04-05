@@ -22,11 +22,19 @@ const PageBannerNew = ({
           </div> */}
           <div className="banner-flex-box">
             <div className="banner-left-section">
-              <h1>{pageTitle}</h1>
-              <p>{pageDescription}</p>
+              <h1 data-aos="fade-down"
+                  data-aos-duration="1200"
+                  data-aos-delay="200">
+                    {pageTitle}
+              </h1>
+              <p data-aos="fade-down"
+                  data-aos-duration="1200"
+                  data-aos-delay="300">
+                    {pageDescription}
+              </p>
             </div>
             <div className="banner-right-section">
-              <Image src={bannerImage} alt="Image" width={375} height={440} />
+              <Image src={bannerImage} alt="Image" width={375} height={440} className="animate__animated animate__fadeInDown animate__fast"/>
             </div>
           </div>
         </div>

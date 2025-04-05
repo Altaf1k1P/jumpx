@@ -1,7 +1,7 @@
 import React from "react";
 import PageBannerNew from "../components/Common/PageBannerNew";
 import ContactInfo from "../components/Contact/ContactInfo";
-import ContactForm from "../components/Contact/ContactForm";
+import ContactFormStyleTwo from "../components/Contact/ContactFormStyleTwo";
 
 export default function ContactPage() {
   return (
@@ -14,7 +14,7 @@ export default function ContactPage() {
 
       <ContactInfo />
 
-      <ContactForm />
+      <ContactFormStyleTwo />
 
     </>
   );
