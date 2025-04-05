@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect , useRef } from "react";
 import AOS from "aos";
 import "../node_modules/aos/dist/aos.css";
 import "../styles/bootstrap.min.css";
@@ -21,6 +21,9 @@ import PopupForm from "../components/Popup/PopupForm";
 
 function MyApp({ Component, pageProps }) {
   const [showPopup, setShowPopup] = useState(false);
+
+  const containerRef = useRef(null);
+
   useEffect(() => {
     AOS.init();
   
@@ -118,7 +121,7 @@ function MyApp({ Component, pageProps }) {
     };
   }, []);
 
-  
+
   return (
     <>
       <Head>
