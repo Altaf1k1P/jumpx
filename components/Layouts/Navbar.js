@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "../../public/images/white-logo.png";
+import logo from "../../public/images/syntheon-logo.png";
 
 const Navbar = ({onEnquireClick}) => {
   // Add active class
@@ -131,8 +131,34 @@ const Navbar = ({onEnquireClick}) => {
                 </li> */}
                      {/*home btn end  */}
 
-                     
-                <li className="nav-item">
+
+                     <li className="nav-item">
+                      <Link
+                        href="/about/"
+                        className={`nav-link ${
+                          currentPath == "/about/" && "active"
+                        }`}
+                      >
+                        Product
+                      </Link>
+                    </li>
+
+
+                    <li className="nav-item">
+                      <Link
+                        href="/about-2/"
+                        className={`nav-link ${
+                          currentPath == "/about-2/" && "active"
+                        }`}
+                      >
+                        About
+                      </Link>
+                    </li>
+
+
+
+
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -163,8 +189,18 @@ const Navbar = ({onEnquireClick}) => {
                         About Style Two
                       </Link>
                     </li>
+                    <li className="nav-item">
+                      <Link
+                        href="/about-3/"
+                        className={`nav-link ${
+                          currentPath == "/about-3/" && "active"
+                        }`}
+                      >
+                        About Style Three
+                      </Link>
+                    </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
@@ -172,29 +208,29 @@ const Navbar = ({onEnquireClick}) => {
                     className="nav-link"
                     onClick={(e) => e.preventDefault()}
                   >
-                    Services <i className="bx bx-chevron-down"></i>
+                    Resources <i className="bx bx-chevron-down"></i>
                   </Link>
 
                   <ul className="dropdown-menu">
-                    <li className="nav-item">
+                  <li className="nav-item">
                       <Link
-                        href="/services/"
+                        href="/news/"
                         className={`nav-link ${
-                          currentPath == "/services/" && "active"
+                          currentPath == "/news/" && "active"
                         }`}
                       >
-                        Services Style One
+                        Blog
                       </Link>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/services/style-2/"
+                        href="/news/"
                         className={`nav-link ${
-                          currentPath == "/services/style-2/" && "active"
+                          currentPath == "/news/" && "active"
                         }`}
                       >
-                        Services Style Two
+                        News
                       </Link>
                     </li>
 
@@ -205,11 +241,11 @@ const Navbar = ({onEnquireClick}) => {
                           currentPath == "/services/style-3/" && "active"
                         }`}
                       >
-                        Services Style Three
+                        Product Updates
                       </Link>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         href="/services/style-4/"
                         className={`nav-link ${
@@ -229,11 +265,26 @@ const Navbar = ({onEnquireClick}) => {
                       >
                         Service Details
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
 
+
+
                 <li className="nav-item">
+                      <Link
+                        href="/faq/"
+                        className={`nav-link ${
+                          currentPath == "/faq/" && "active"
+                        }`}
+                      >
+                        Faq
+                      </Link>
+                    </li>
+
+
+
+                {/* <li className="nav-item">
                   <Link href="#" onClick={(e) => e.preventDefault()}>
                     Pages <i className="bx bx-chevron-down"></i>
                   </Link>
@@ -349,9 +400,9 @@ const Navbar = ({onEnquireClick}) => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link href="#" onClick={(e) => e.preventDefault()}>
                     News <i className="bx bx-chevron-down"></i>
                   </Link>
@@ -390,9 +441,22 @@ const Navbar = ({onEnquireClick}) => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
+
 
                 <li className="nav-item">
+                      <Link
+                        href="/contact/"
+                        className={`nav-link ${
+                          currentPath == "/contact/" && "active"
+                        }`}
+                      >
+                        Contact
+                      </Link>
+                    </li>
+
+
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -424,8 +488,8 @@ const Navbar = ({onEnquireClick}) => {
                       </Link>
                     </li>
                   </ul>
-                </li>
-              </ul>
+                </li>*/}
+              </ul> 
 
               <div className="others-options">
                 <button onClick={onEnquireClick}  className="default-btn">
