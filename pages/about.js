@@ -1,5 +1,5 @@
 import React from "react";
-import PageBanner from "../components/Common/PageBanner";
+import PageBannerNew from "../components/Common/PageBannerNew";
 import About from "../components/AboutOne/About";
 import MakeYourBusiness from "../components/Common/MakeYourBusiness";
 import Testimonials from "../components/Common/Testimonials";
@@ -10,12 +10,9 @@ export default function AboutPage() {
   return (
     <>
 
-
-      <PageBanner
-        pageTitle="About Style One"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="About Style One"
+      <PageBannerNew
+        pageTitle="Products"
+        pageDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
       />
 
       <About />
@@ -30,7 +27,6 @@ export default function AboutPage() {
         <Partner />
       </div>
 
-  
     </>
   );
 }
