@@ -64,8 +64,8 @@ const News = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Fuga veritatis veniam corrupti perferendis minima in.
                   </p>
-
-                  <Link href="/news/news-details" className="read-more">
+                   <hr />
+                  <Link href="/news/news-details" className="read-more-secondary">
                     Read More <i className="bx bx-plus"></i>
                   </Link>
                 </div>
@@ -114,8 +114,8 @@ const News = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Fuga veritatis veniam corrupti perferendis minima in.
                   </p>
-
-                  <Link href="/news/news-details" className="read-more">
+                  <hr />
+                  <Link href="/news/news-details" className="read-more-secondary">
                     Read More <i className="bx bx-plus"></i>
                   </Link>
                 </div>
@@ -164,8 +164,8 @@ const News = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Fuga veritatis veniam corrupti perferendis minima in.
                   </p>
-
-                  <Link href="/news/news-details" className="read-more">
+                  <hr />
+                  <Link href="/news/news-details" className="read-more-secondary">
                     Read More <i className="bx bx-plus"></i>
                   </Link>
                 </div>

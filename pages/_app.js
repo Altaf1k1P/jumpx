@@ -136,25 +136,26 @@ function MyApp({ Component, pageProps }) {
       </div>
 
       <Navbar onEnquireClick={() => setShowPopup(true)} />
-      <Component {...pageProps} />
-      <Footer/>
-
-      {/* Go Top Button */}
-      <GoTop scrollStepInPx="100" delayInMs="10.50" />
           {/* Popup */}
           {showPopup && (
+            
         <div
           className="popup-overlay"
-          onClick={() => setShowPopup(false)}
         >
           <div
             className="popup-container"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the form
           >
-            <PopupForm />
+            <PopupForm onClose={() => setShowPopup(false)}/>
           </div>
         </div>
       )}
+      <Component {...pageProps}  />
+      <Footer/>
+
+      {/* Go Top Button */}
+      <GoTop scrollStepInPx="100" delayInMs="10.50" />
+        
     </>
   );
 }

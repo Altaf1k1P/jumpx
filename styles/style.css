@@ -588,6 +588,15 @@ Read More Area Style
   color: var(--main-bg-color);
   border-color: var(--main-color);
 }
+.read-more-secondary i {
+  position: relative;
+  top: 3px;
+  font-size: 18px;
+  left: 3px;
+  line-height: 19px;
+  border-radius: 50%;
+  transition: all 0.6s ease;
+}
 
 /*
 Section Title Area Style
@@ -1940,7 +1949,7 @@ News Area Style
 }
 .single-news .news-content-wrap {
   background-color: var(--main-bg-color);
-  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05); */
   padding: 30px;
 }
 .single-news .news-content-wrap ul {
@@ -4822,19 +4831,108 @@ Service Details Area Style
 
 
 /* popup */
+ /* Popup Container */
+ .popup_container {
+
+  background: #fff;
+  padding: 24px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.popup-header p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.close_btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #888;
+  cursor: pointer;
+}
+
+.close_btn:hover {
+  color: red;
+}
+
+
+/* Form Layout */
+.popup_form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.popup_row {
+  display: flex;
+  gap: 16px;
+}
+
+.popup_form input[type="text"],
+.popup_form input[type="email"],
+.popup_form input[type="tel"] {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+/* Checkbox */
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  color: #444;
+  gap: 8px;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+/* Button */
+.submit-btn {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
 /* Popup Overlay */
 .popup-overlay {
-  position: fixed;          /* ✅ Covers the entire screen */
+  /* position: sticky;          ✅ Covers the entire screen */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Dim background */
+  /* background: rgba(0, 0, 0, 0.6); Dim background */
   z-index: 9999;             /* Ensure it's on top of everything */
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   animation: fadeIn 0.5s ease-in-out;
+  position: relative;
 }
 
 /* Popup Container */
@@ -4845,25 +4943,10 @@ Service Details Area Style
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
-  position: relative;
+  position: absolute;
+  top: 0;
   animation: slideIn 0.5s ease-in-out;
 }
-
-/* Close Button
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 24px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: #333;
-}
-
-.close-btn:hover {
-  color: red;
-} */
 
 /* Popup Animations */
 @keyframes fadeIn {
