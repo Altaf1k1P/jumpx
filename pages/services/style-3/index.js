@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "../../../components/Layouts/Navbar";
+// import Navbar from "../../../components/Layouts/Navbar";
 import PageBanner from "../../../components/Common/PageBanner";
 import ServicesStyleThree from "../../../components/Services/ServicesStyleThree";
-import Footer from "../../../components/Layouts/Footer";
+// import Footer from "../../../components/Layouts/Footer";
 
 export default function Services3Page() {
   return (
     <>
-      <Navbar />
+     
 
       <PageBanner
         pageTitle="Services Style Three"
@@ -18,7 +18,7 @@ export default function Services3Page() {
 
       <ServicesStyleThree />
 
-      <Footer />
+    
     </>
   );
 }
