@@ -16,7 +16,7 @@
  export default function Index3Page() {
    return (
      <>
-//       <Navbar />
+   {/*//       <Navbar />
 
 //       <MainBanner />
 
@@ -43,6 +43,7 @@
 //       <News />
 
 //       <Footer />
+*/}
      </>
    );
  }
