@@ -16,9 +16,9 @@
    export default function Index5Page() {
      return (
        <>
-        { <Navbar />
+         {/* <Navbar />
 
-      {/*   <MainBanner />
+      <MainBanner />
 
       // <PartnerSlider />
 
