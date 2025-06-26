@@ -168,13 +168,13 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-call"></i>
                     <span>Phone</span>
-                    +882-569-756
+                    +8689-xxxx
                   </li>
 
                   <li className="address">
                     <i className="flaticon-envelope"></i>
                     <span>Email</span>
-                    hello@jumpx.com
+                    hello@altaf.com
                   </li>
 
                   <li className="address">
