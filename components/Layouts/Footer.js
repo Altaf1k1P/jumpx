@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "../../public/images/white-logo.png";
+import logo from "../../public/images/syntheon-logo.png";
 import shape1 from "../../public/images/shape/footer-shape-one.png";
 import shape2 from "../../public/images/shape/footer-shape-two.png";
 
