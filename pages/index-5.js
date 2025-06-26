@@ -16,31 +16,32 @@
    export default function Index5Page() {
      return (
        <>
-//       <Navbar />
+        { <Navbar />
 
-//       <MainBanner />
+      {/*   <MainBanner />
 
-//       <PartnerSlider />
+      // <PartnerSlider />
 
-//       <About />
+      // <About />
 
-//       <WhyChooseUs />
+      // <WhyChooseUs />
 
-//       <Services />
+      // <Services />
 
-//       <MakeYourBusiness />
+      // <MakeYourBusiness />
 
-//       <WhatWeOffer />
+      // <WhatWeOffer />
 
-//       <CaseStudies />
+      // <CaseStudies />
 
-//       <Testimonials />
+      // <Testimonials />
 
-//       <Faq />
+      // <Faq />
 
-//       <News />
+      // <News />
 
-//       <Footer />
+      // <Footer />
+      */}
        </>
      );
    }
