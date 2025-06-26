@@ -18,7 +18,7 @@
  export default function Index4Page() {
    return (
      <>
-//       <div className="body-bg-color">
+   {/*//       <div className="body-bg-color">
 //         <Navbar />
 
 //         <MainBanner />
@@ -49,6 +49,7 @@
 
 //         <Footer />
 //       </div>
+*/}
      </>
    );
  }
