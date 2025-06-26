@@ -1,4 +1,4 @@
-// import React from "react";
+ import React from "react";
 // import Navbar from "../components/Layouts/Navbar";
 // import MainBanner from "../components/HomeFour/MainBanner";
 // import PartnerSliderTwo from "../components/Common/PartnerSliderTwo";
@@ -15,9 +15,9 @@
 // import News from "../components/HomeFour/News";
 // import Footer from "../components/Layouts/Footer";
 
-// export default function Index4Page() {
-//   return (
-//     <>
+ export default function Index4Page() {
+   return (
+     <>
 //       <div className="body-bg-color">
 //         <Navbar />
 
@@ -49,6 +49,6 @@
 
 //         <Footer />
 //       </div>
-//     </>
-//   );
-// }
+     </>
+   );
+ }
