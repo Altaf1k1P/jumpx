@@ -1,4 +1,4 @@
-// import React from "react";
+   import React from "react";
 // import Navbar from "../components/Layouts/Navbar";
 // import MainBanner from "../components/HomeFive/MainBanner";
 // import PartnerSlider from "../components/Common/PartnerSlider";
@@ -13,9 +13,9 @@
 // import News from "../components/Common/News";
 // import Footer from "../components/Layouts/Footer";
 
-// export default function Index5Page() {
-//   return (
-//     <>
+   export default function Index5Page() {
+     return (
+       <>
 //       <Navbar />
 
 //       <MainBanner />
@@ -41,6 +41,6 @@
 //       <News />
 
 //       <Footer />
-//     </>
-//   );
-// }
+       </>
+     );
+   }
