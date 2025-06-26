@@ -16,7 +16,7 @@ import React from "react";
  export default function Index2Page() {
 return (
        <>
-//       <Navbar />
+   {/*//       <Navbar />
 
 //       <MainBanner />
 
@@ -43,6 +43,7 @@ return (
 //       </div>
 
 //       <Footer />
+*/}
      </>
    );
  }
