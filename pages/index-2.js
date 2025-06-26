@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 // import Navbar from "../components/Layouts/Navbar";
 // import MainBanner from "../components/HomeTwo/MainBanner";
 // import Features from "../components/HomeTwo/Features";
@@ -13,9 +13,9 @@
 // import Partner from "../components/Common/Partner";
 // import Footer from "../components/Layouts/Footer";
 
-// export default function Index2Page() {
-//   return (
-//     <>
+ export default function Index2Page() {
+return (
+       <>
 //       <Navbar />
 
 //       <MainBanner />
@@ -43,6 +43,6 @@
 //       </div>
 
 //       <Footer />
-//     </>
-//   );
-// }
+     </>
+   );
+ }
